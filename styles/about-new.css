@@ -1,0 +1,347 @@
+/*---------------------- General styles for the page ------------------------------*/
+
+@font-face {
+    font-family: "Satisfy";
+    src: url(../fonts/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Alata';
+    src: url(../fonts/Alata-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Courgette';
+    src: url(../fonts/Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Alpaca';
+    src: url(../fonts/ALPACA\ SCARLETT\ DEMO.TTF);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+a {
+    color: black !important;
+}
+
+.section-padding {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
+/*----------------------- Styles for the header part of the webpage -------------------------------------*/
+
+header {
+    width: 100%;
+    height: auto;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/main.jpeg) center no-repeat; */
+    background-color: #FEF7F7;
+}
+
+header>.container {
+    position: relative;
+    height: 100%;
+    padding: 0;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 130%;
+    max-width: 150px;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 650ms;
+}
+
+.navbar-brand:hover {
+    opacity: 0.8;
+}
+
+.hamburger-menu {
+    position: fixed;
+    top: 25px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.hamburger-menu i {
+    font-size: 30px;
+    color: #b7472a;
+    margin: auto;
+}
+
+.hamburger-menu .fa-times {
+    display: none;
+}
+
+.hamburger-menu .fa-times.open {
+    display: block;
+}
+
+.hamburger-menu .fa-bars.open {
+    display: none;
+}
+
+.nav-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    list-style: none;
+    background-color: #7c4506;
+    z-index: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 550ms;
+}
+
+.nav-list.open {
+    opacity: 0.99;
+    transform: scale(1);
+}
+
+
+/* styles for the edge to edge design */
+
+.container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+.row.row-no-gutter {
+    margin: 0
+}
+
+.row.row-no-gutter [class*="col-"] {
+    padding: 0
+}
+
+.img-full-width {
+    width: 100.5%;
+    height: auto;
+}
+
+.has-inner .row.row-no-gutter {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row.row-no-gutter .inner {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+/*--------------------------- Styles for the intro part of the webpage ----------------------*/
+
+.intro .text-container {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    margin-bottom: 150px;
+}
+
+.image-full-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.intro .text-container {
+    padding-top: 70px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.intro .content {
+    font-family: 'Alata';
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.intro .section-title {
+    font-family: 'Alata';
+    text-align: center;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+}
+
+
+/*-------------------------------- Facts part of the webpage ---------------------------------------*/
+
+.facts .text-container {
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 160px;
+}
+
+.facts .content {
+    font-family: 'Alata';
+    text-align: center;
+    line-height: 2em;
+    padding-top: 50px;
+}
+
+.subsection-title {
+    font-family: 'Alata';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.viziune .text-container {
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 160px;
+}
+
+.viziune .content {
+    font-family: 'Alata';
+    text-align: center;
+    line-height: 2em;
+    padding-top: 50px;
+}
+
+.valori .text-container {
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 160px;
+}
+
+.valori .content {
+    font-family: 'Alata';
+    text-align: center;
+    line-height: 2em;
+    padding-top: 50px;
+}
+
+
+/*--------------------------Styles for the mission part of the webpage---------------------------------*/
+
+.section-mission {
+    background-color: #FEF7F7;
+}
+
+.icon-container {
+    width: 130px;
+    height: 130px;
+}
+
+.subsection-title {
+    font-size: 32px;
+}
+
+.single-history-one {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.single-history-two {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.single-history-three {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media (min-width: 576px) {
+    .navbar-brand {
+        max-width: 150px;
+    }
+    .hamburger-menu {
+        top: 35px;
+        right: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn {
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    header>.container {
+        padding: 0;
+    }
+    header {
+        margin-bottom: 0px;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+    .navbar-brand {
+        position: initial;
+        transform: initial;
+    }
+    .nav-list {
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: initial;
+        flex-direction: row;
+        opacity: initial;
+        transform: initial;
+        transition: initial;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-item {
+        margin: 0 30px;
+        padding-bottom: 2vh;
+    }
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+    .nav-link {
+        position: relative;
+    }
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        background-color: #C69963;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 350ms;
+    }
+    .nav-link:hover::before {
+        transform: scaleX(1);
+    }
+    .servicies-section {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        margin-bottom: 0px;
+    }
+    .intro .website-title {
+        position: relative;
+        top: 120px;
+    }
+}

@@ -1,0 +1,372 @@
+@font-face {
+    font-family: "Satisfy";
+    src: url(../fonts/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Alata';
+    src: url(../fonts/Alata-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Courgette';
+    src: url(../fonts/Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Alpaca';
+    src: url(../fonts/ALPACA\ SCARLETT\ DEMO.TTF);
+}
+
+
+/* -------------------- General styles ------------------------------ */
+
+header {
+    background: none;
+    height: 21.5vh;
+    background-color: #FEF7F7;
+}
+
+header>.container {
+    position: relative;
+    height: 85px;
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+
+/* styles for the edge to edge design */
+
+.container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+.row.row-no-gutter {
+    margin: 0
+}
+
+.row.row-no-gutter [class*="col-"] {
+    padding: 0
+}
+
+.img-full-width {
+    width: 100.5%;
+    height: auto;
+}
+
+.has-inner .row.row-no-gutter {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row.row-no-gutter .inner {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+/* ------------------ Intro ------------------------*/
+
+.page-title {
+    font-family: 'Alata';
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 600;
+    color: black;
+    margin-top: 50px;
+}
+
+.header-container .text-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+
+/* -------------------- Styles for history part of the page ------------------*/
+
+.history {}
+
+.history .title-container {}
+
+.history .section-title {
+    font-family: 'Satisfy';
+    letter-spacing: 3px;
+}
+
+.history .year {
+    color: #C69963;
+}
+
+.history .year-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.history {
+    margin-top: 660px;
+    background-color: #FEF7F7;
+}
+
+.icon-container {
+    width: 130px;
+    height: 130px;
+}
+
+.subsection-title {
+    font-size: 32px;
+}
+
+.single-history-one {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.single-history-two {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.single-history-three {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* ------------------ Styles for the transition */
+
+.transition {
+    background-image: url(../dummy/ice-cream/pexels-nerfee-mirandilla-3186751.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 30vh;
+    width: 100%;
+}
+
+
+/* -------------------- Styles for mission and values part of the page -------------------*/
+
+.misiune .content-container {
+    margin-top: 50px;
+}
+
+.misiune .subtitle {
+    letter-spacing: 2px;
+    font-family: 'Satisfy';
+}
+
+.misiune .content {
+    font-weight: 600;
+}
+
+
+/* --------------------- Styles for the testimonial part of the page ----------------------*/
+
+
+/* -------------------- Styles for the call-to-action part of the page ------------- */
+
+
+/* -------------------- Styles for the footer -------------------------*/
+
+.footer {
+    width: 100%;
+    background: #4A2815;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    opacity: 0.9;
+}
+
+.footer_logo_title {
+    font-size: 23px;
+    line-height: 1em;
+    color: #FFFFFF;
+    font-family: 'Alata';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.footer_logo_subtitle {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.680em;
+    line-height: 0.75;
+    margin-top: 17px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.41);
+    line-height: 0.75;
+    margin-top: 22px;
+}
+
+.footer_about p {
+    color: #a5a4a4;
+}
+
+.footer_about h2 {
+    color: #FFFFFF;
+}
+
+.footer_contact ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer_contact ul {
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer_contact_text {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+
+.footer_contact ul li div:last-child {
+    white-space: nowrap;
+}
+
+.footer-second-row {
+    width: 100%;
+}
+
+.footer-second-row ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-second-row li {
+    float: left;
+}
+
+.footer-second-row li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.footer-second-row li a:hover {
+    background-color: #111111;
+}
+
+.footer-second-row li a {
+    color: white !important;
+}
+
+.center-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list {
+    justify-items: center;
+    list-style-type: none;
+    text-align: center;
+}
+
+.social-list li {
+    float: left;
+    padding-right: 10px;
+}
+
+.social-container {
+    position: relative;
+    text-align: center;
+    left: 47%;
+}
+
+.social-container a {
+    color: white !important;
+}
+
+.social-container a:hover {
+    color: black !important;
+}
+
+
+/* -------------------- Media queries -------------------------*/
+
+@media (min-width: 576px) {
+    .navbar-brand {
+        max-width: 150px;
+    }
+    .hamburger-menu {
+        top: 35px;
+        right: 25px;
+    }
+    /* header>.container {
+        margin-bottom: 250px;
+    }
+    .header-container {
+        margin-top: 150px;
+    } */
+}
+
+@media (min-width: 768px) {
+    .btn {
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    header>.container {
+        padding: 0;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+    .navbar-brand {
+        position: initial;
+        transform: initial;
+    }
+    .nav-list {
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: initial;
+        flex-direction: row;
+        opacity: initial;
+        transform: initial;
+        transition: initial;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-item {
+        margin: 0 30px;
+        padding-bottom: 2vh;
+    }
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+    .nav-link {
+        position: relative;
+    }
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        background-color: #C69963;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 350ms;
+    }
+    .nav-link:hover::before {
+        transform: scaleX(1);
+    }
+}

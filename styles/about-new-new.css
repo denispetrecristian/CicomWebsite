@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat bold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+section .image-container {
+    width: 100%;
+    height: 100%;
+}
+
+section .inner {
+    width: 100%;
+    height: 100%;
+}
+
+footer a {
+    color: white !important;
+}
+
+footer a:hover {
+    color: black !important;
+}
+
+section {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    background: #4A2815;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    opacity: 0.9;
+}
+
+.footer_logo_title {
+    font-size: 23px;
+    line-height: 1em;
+    color: #FFFFFF;
+    font-family: 'Alata';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.footer_logo_subtitle {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.680em;
+    line-height: 0.75;
+    margin-top: 17px;
+}
+
+
+/* .copyright {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.41);
+    line-height: 0.75;
+    margin-top: 22px;
+}
+
+.footer_about p {
+    color: #a5a4a4;
+}
+
+.footer_about h2 {
+    color: #FFFFFF;
+}
+
+.footer_contact ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer_contact ul {
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer_contact_text {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+
+.footer_contact ul li div:last-child {
+    white-space: normal;
+}
+
+.footer-second-row {
+    width: 100%;
+}
+
+.footer-second-row ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-second-row li {
+    float: left;
+}
+
+.footer-second-row li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.footer-second-row li a:hover {
+    background-color: #111111;
+}
+
+.footer-second-row li a {
+    color: white !important;
+}
+
+.center-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list {
+    justify-items: center;
+    list-style-type: none;
+    text-align: center;
+}
+
+.social-list li {
+    float: left;
+    padding-right: 10px;
+}
+
+.social-container {
+    position: relative;
+    text-align: center;
+    left: 43%;
+}
+
+.social-container a {
+    color: white !important;
+}
+
+.social-container a:hover {
+    color: black !important;
+} */
+
+header {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat';
+}
+
+.hero-text {
+    position: relative;
+    bottom: 50%;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+}
+
+.hero-text .website-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Alata';
+    text-transform: uppercase;
+    position: relative;
+    left: 10px;
+}
+
+.hero-text .content {
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-text .content:last-child {
+    margin-bottom: 0px;
+}
+
+header {
+    background: none;
+    overflow-wrap: normal;
+}
+
+
+/*-------------------------------- Intro part of the website --------------------------*/
+
+.card-header {
+    font-family: 'Montserrat bold';
+    background-color: transparent;
+    color: white;
+    font-weight: 1200;
+    text-transform: uppercase;
+    text-align: left !important;
+}
+
+.card-header>h2>button {
+    text-transform: uppercase;
+}
+
+.card-header>h2>button:focus {
+    color: indianred;
+}
+
+.btn-card:focus {
+    color: indianred;
+}
+
+.card-header>button {
+    text-transform: uppercase;
+}
+
+
+/* ------------------------------- FAQ part of the website ------------------------*/
+
+.accordion {
+    margin-top: 650px;
+    margin-bottom: 80px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.card-custom {
+    height: fit-content;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+}
+
+.card {
+    background-color: transparent;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 2px solid black !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card.active {
+    border-color: red !important;
+}
+
+.card h2.active>.btn-link {
+    color: red !important;
+}
+
+.card:active {
+    background: none;
+}
+
+.card-header:focus {
+    color: red !important;
+}
+
+.card-custom a {
+    color: #4A2815 !important;
+}
+
+.card-header {
+    border: none;
+    width: 100%;
+    text-align: center;
+    width: fit-content;
+    min-width: 100%;
+    background: url(../images/details/sageata.png) 100% 50% no-repeat;
+    background-size: 20px;
+}
+
+.card-header:hover {
+    color: red;
+}
+
+.card-body {
+    height: fit-content;
+}
+
+.btn-card {
+    color: #4A2815 !important;
+    border: none !important;
+    width: 100%;
+}
+
+.vafa-container {
+    width: 400px;
+    position: relative;
+    top: 10%;
+    z-index: -1;
+}
+
+.tort-container {
+    width: 400px;
+    position: relative;
+    right: 15%;
+    top: 120px;
+    z-index: -1;
+}
+
+@media(min-width: 375px) {
+    /* .tort-container {
+        right: 5%;
+    } */
+}
+
+@media(min-width: 425px) {
+    .hero-text {
+        top: 60%;
+        width: 80vw !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .hero-text {
+        width: 80vw !important;
+        height: fit-content;
+        margin-top: 220px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-text {
+        margin-top: 220px;
+        width: 150%;
+        height: fit-content;
+    }
+    main {
+        margin-top: 250px;
+    }
+    .vafa-container {
+        top: 120%;
+        right: 110%;
+    }
+    .hero-text {
+        width: 40vw;
+    }
+    header {
+        margin-bottom: 0px;
+    }
+    main {
+        margin-top: 50px;
+    }
+    .hamburger-menu {
+        right: 65px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-text .content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .hero-text {
+        width: initial;
+    }
+    .vafa-container {
+        width: 400px;
+        position: relative;
+        top: 120%;
+        right: 20%;
+        z-index: -1;
+    }
+    .tort-container {
+        width: 400px;
+        position: relative;
+        right: 15%;
+        top: 20%;
+        z-index: -1;
+    }
+    header {
+        margin-bottom: initial;
+    }
+    main {
+        margin-top: initial;
+    }
+    .hamburger-menu {
+        right: initial;
+    }
+}
+
+@media (min-width: 1200px) {
+    header .row-content {
+        margin-top: 20px;
+        margin-bottom: 90px;
+    }
+    .accordion {
+        margin-top: 130px;
+    }
+    .hero-text {
+        width: initial !important;
+        margin-top: initial;
+        margin-bottom: initial;
+    }
+    .vafa-container {
+        width: initial;
+        top: 30%;
+        right: initial;
+        left: initial;
+    }
+    .tort-container {
+        width: initial;
+        top: initial;
+        right: initial;
+        left: initial;
+    }
+}
+
+@media(max-width: 280px) {
+    .tort-container {
+        width: 180px;
+    }
+    .vafa-container {
+        width: 180px;
+        top: 60px;
+        right: -60px;
+    }
+}
+
+@media(min-width: 2560px) {
+    .accordion {
+        margin-top: 120px;
+    }
+    header {
+        height: 70vh;
+    }
+    .vafa-container {
+        width: 600px;
+        left: 10%;
+        top: 20%;
+    }
+    .tort-container {
+        width: 600px;
+        right: 45%;
+    }
+    .content {
+        font-size: 1.3rem !important;
+    }
+    .website-title {
+        font-size: 3rem !important;
+    }
+    .btn-card {
+        font-size: 1.2rem !important;
+    }
+    .card-body {
+        font-size: 1.1rem !important;
+    }
+}

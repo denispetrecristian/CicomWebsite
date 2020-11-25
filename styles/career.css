@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Alata';
+    src: url(../fonts/Alata-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Courgette';
+    src: url(../fonts/Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Alpaca';
+    src: url(../fonts/ALPACA\ SCARLETT\ DEMO.TTF);
+}
+
+
+/* -------------------- Styles for the presentation part of the website ----------------------- */
+
+.prezentare .image-container {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 45%;
+}
+
+.prezentare .content {
+    font-size: large;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.prezentare {
+    border-bottom: 0.5px solid white;
+}
+
+
+/* .prezentare .prezentare-container {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    left: 36%;
+} */
+
+header {
+    height: 100vh;
+    background-color: #FEF7F7;
+    width: 100%;
+    background-image: url(../images/images-new/DSC_0269.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+header>.container {
+    position: relative;
+    height: 85px;
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+
+/* -------------------- Styles for the partners part of the page -------------------*/
+
+.beneficii {
+    background-color: #FEF7F7;
+    border-bottom: solid 1px white;
+}
+
+.beneficii .section-title {
+    font-family: 'Alata';
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.beneficii .content-container {
+    margin-top: 30px;
+}
+
+.beneficii .content {
+    font-family: 'Alata';
+    font-size: 22px;
+}
+
+
+/*--------------------------- Styles for the advantages part of the page -------------------*/
+
+.single-avantaj {
+    background-color: #FEF7F7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.single-avantaj-two {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #FEF7F7;
+}
+
+.single-avantaj .content {
+    margin-top: 20px;
+}
+
+.single-avantaj-two .content {
+    margin-top: 20px;
+}
+
+.single-avantaj .content {
+    font-family: 'Alata';
+}
+
+.single-avantaj-two .content {
+    font-family: 'Alata';
+}
+
+.partners .section-title {
+    font-size: 28px;
+    font-family: 'Alata';
+}
+
+.partners .content {
+    font-size: 16px;
+}
+
+
+/* -------------------- Styles for the call-to-action part of the page ------------- */
+
+
+/* -------------------- Styles for the footer -------------------------*/
+
+footer {
+    width: 100%;
+    background: #232323;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.footer_logo_title {
+    font-size: 57px;
+    line-height: 0.75;
+    color: #FFFFFF;
+}
+
+.footer_logo_subtitle {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.680em;
+    line-height: 0.75;
+    margin-top: 17px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.41);
+    line-height: 0.75;
+    margin-top: 22px;
+}
+
+.footer_about p {
+    color: #a5a4a4;
+}
+
+.footer_about h2 {
+    color: #FFFFFF;
+}
+
+.footer_contact ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer_contact ul {
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+}
+
+.footer_contact_text {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+
+.footer_contact ul li div:last-child {
+    white-space: nowrap;
+}
+
+.footer-second-row {
+    width: 100%;
+}
+
+.footer-second-row ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-second-row li {
+    float: left;
+}
+
+.footer-second-row li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.footer-second-row li a:hover {
+    background-color: #111111;
+}
+
+.center-ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -------------------- Media queries -------------------------*/
+
+@media (min-width: 576px) {
+    .navbar-brand {
+        max-width: 150px;
+    }
+    .hamburger-menu {
+        top: 35px;
+        right: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn {
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    header>.container {
+        padding: 0;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+    .navbar-brand {
+        position: initial;
+        transform: initial;
+    }
+    .nav-list {
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: initial;
+        flex-direction: row;
+        opacity: initial;
+        transform: initial;
+        transition: initial;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-item {
+        margin: 0 30px;
+        padding-bottom: 2vh;
+    }
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+    .nav-link {
+        position: relative;
+    }
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        background-color: #C69963;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 350ms;
+    }
+    .nav-link:hover::before {
+        transform: scaleX(1);
+    }
+}

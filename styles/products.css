@@ -1,0 +1,667 @@
+@font-face {
+    font-family: 'Alata';
+    src: url(../fonts/Alata-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Courgette';
+    src: url(../fonts/Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Alpaca';
+    src: url(../fonts/ALPACA\ SCARLETT\ DEMO.TTF);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+
+/* ---------------------Edge to edge styles    -------------------------*/
+
+.container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+.row.row-no-gutter {
+    margin: 10px;
+}
+
+.row.row-no-gutter-parallax {
+    margin: 0px;
+}
+
+.has-inner .row.row-no-gutter-parallax {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row.row-no-gutter-parallax .inner {
+    padding: 0px 0px 0px 0px;
+}
+
+.row.row.row-no-gutter-parallax [class*='col-'] {
+    padding: 0;
+}
+
+.row.row-no-gutter [class*="col-"] {
+    padding: 0;
+}
+
+.img-full-width {
+    width: 100.5%;
+    height: auto;
+}
+
+.has-inner .row.row-no-gutter {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row.row-no-gutter .inner {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* ------------------ Section styles -------------------*/
+
+.section-spacing {
+    margin-top: 80px;
+    margin-bottom: 220px;
+}
+
+.section-spacing-parralax {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* ------------------- Header styles ------------------*/
+
+header {
+    background: none;
+}
+
+.hero-text {
+    position: relative;
+    /* left: 65%; */
+    top: 70%;
+    width: fit-content;
+    padding: 10px 10px 22px 0px;
+    z-index: 50;
+}
+
+.hero-text .content {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+}
+
+.hero-text .content {
+    font-family: 'Montserrat';
+    font-size: 0.7rem;
+    color: grey;
+    padding-right: 50px;
+    padding-left: 50px;
+    letter-spacing: 1.5px;
+}
+
+.hero-text .title-website {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+header .right-container {
+    width: 180px;
+    position: relative;
+    left: 40%;
+}
+
+header .left-container {
+    width: 180px;
+    position: relative;
+    top: 320%;
+}
+
+@media (min-width: 375px) {
+    header .right-container {
+        width: 240px;
+    }
+    header .left-container {
+        width: 240px;
+        top: 255%;
+    }
+}
+
+@media(min-width: 425px) {
+    header .right-container {
+        width: 260px;
+    }
+    header .left-container {
+        width: 260px;
+        top: 230%;
+    }
+}
+
+
+/* -------------------- Vafe styles -----------------*/
+
+.vafa .picture-container {
+    width: 100%;
+    height: 150px;
+    background-image: url(../images/Linie\ Productie-149.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    height: 60vh;
+}
+
+.vafa .text-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    z-index: 50;
+    font-size: 0.95rem;
+    font-family: 'Alata';
+}
+
+.tab {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.vafa h2 {
+    font-family: 'Alata';
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.vafa .boxed-btn {
+    position: relative;
+    margin-left: 90px;
+    top: -30px;
+}
+
+.vafa {
+    margin-top: 100px;
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: none;
+}
+
+.bg-modal-tort {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: none;
+}
+
+.modal-content {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    opacity: 1;
+    z-index: 1000;
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.close-modal {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.close-modal-tort {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.bg-modal .img-container {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-modal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/* -------------------- Tort styles ----------------*/
+
+.tort .picture-container {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/details/product-tort.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+}
+
+.tort .text-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.tort h2 {
+    font-family: 'Alata';
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.tort .content {
+    font-size: 0.95rem;
+    font-family: 'Alata';
+}
+
+
+/*---------------- Horeca styles ---------------*/
+
+.horeca {
+    width: 100%;
+    height: 40vh;
+}
+
+.horeca h2 {
+    text-transform: uppercase;
+}
+
+.horeca .img-container {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+}
+
+.title-row {
+    margin-bottom: 80px;
+}
+
+.vafa .modal-btn {
+    top: 20px;
+    right: 90px;
+}
+
+.tort .modal-btn {
+    top: 0px;
+    right: 0px;
+}
+
+@media(min-width:375px) {
+    .vafa .modal-btn {
+        right: 125px;
+    }
+    .tort .modal-btn {
+        top: 20px;
+        right: 90px;
+    }
+}
+
+@media(min-width: 425px) {
+    .vafa .modal-btn {
+        right: 90px;
+    }
+    .tort .modal-btn {
+        right: 35px;
+    }
+}
+
+@media(min-width: 768px) {
+    .vafa .modal-btn {
+        top: -20px;
+        right: 0px;
+    }
+    .tort .modal-btn {
+        right: -30px;
+        top: -20px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .vafa .modal-btn {
+        top: 0px;
+        right: 90px;
+    }
+    .tort .modal-btn {
+        top: 10px;
+        right: 0px;
+    }
+}
+
+@media(min-width: 1440px) {
+    .vafa .modal-btn {
+        top: -25px;
+        right: 50px;
+    }
+    .tort .modal-btn {
+        top: -25px;
+        right: -30px;
+    }
+}
+
+.product-row {
+    text-align: center;
+    margin-top: 200px;
+}
+
+@media(min-width: 768px) {
+    .product-row {
+        margin-top: 80px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .product-row {
+        margin-top: 150px;
+    }
+}
+
+
+/*-------------- CAll to action -----------------*/
+
+.call-to-action {
+    margin-top: 1150px;
+}
+
+@media(min-width: 992px) {
+    .call-to-action {
+        margin-top: 0px;
+    }
+}
+
+
+/*----------- Styles for the header -------------*/
+
+.vafe {
+    margin-top: 0px !important;
+}
+
+header {
+    height: 80vh;
+}
+
+.vafa .text-container {
+    padding-left: 60px;
+    padding-right: 90px;
+}
+
+.spaced-par {
+    margin-top: 90px;
+}
+
+.text-row {
+    margin-bottom: 60px;
+}
+
+
+/*--------- button image -----------------*/
+
+.btn-image {
+    position: relative;
+    left: 30%;
+    margin-top: 50px;
+}
+
+.product-row {
+    position: relative;
+    top: -90px;
+}
+
+.content-row {
+    font-family: 'Alata';
+}
+
+.title-service {
+    font-family: 'Alata';
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+@media(min-width:375px) {
+    .title-service {
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-image {
+        margin-top: 80px;
+        padding-right: 140px;
+        padding-right: 50px;
+    }
+    .unruly-button {
+        position: relative;
+        right: -92px;
+    }
+    .call-to-action {
+        margin-top: 500px;
+    }
+    .title-service {
+        padding-left: 30px;
+    }
+    .title-service-one {
+        padding-left: 40px;
+    }
+    header {
+        height: 100vh;
+    }
+}
+
+@media(min-width: 1024px) {
+    .unruly-button {
+        position: relative;
+        right: 0px;
+    }
+    .btn-image {
+        margin-top: initial;
+        padding-right: initial;
+    }
+}
+
+
+/*--------------- Media queries --------------------*/
+
+@media (min-width:576px) {}
+
+@media (min-width:768px) {
+    .hero-text {
+        margin-top: 200px;
+        top: 30%;
+    }
+    header .right-container {
+        position: relative;
+        width: 350px;
+        top: 80%;
+        left: -80%;
+    }
+    header .left-container {
+        width: 350px;
+        top: 80%;
+        left: 45%;
+    }
+    .tort .picture-container {
+        background-size: contain;
+    }
+    .vafe .picture-container {
+        background-size: contain;
+    }
+    .vafa .picture-container {
+        height: 600px;
+    }
+}
+
+@media (min-width:992px) {
+    .hero-text {
+        margin-top: 0px;
+        top: 40%;
+    }
+    .right-container {
+        top: initial;
+    }
+    .left-container {
+        top: initial;
+        left: initial;
+    }
+    .content {
+        font-size: 0.9rem;
+    }
+    header .right-container {
+        width: 60vw;
+        z-index: 45;
+        position: relative;
+        left: -90%;
+        top: 0%;
+    }
+    header .left-container {
+        width: 60vw;
+        position: relative;
+        z-index: 46;
+        left: 0%;
+        top: 5%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tort .picture-container {
+        background-position: 0% 10%;
+        height: 600px;
+    }
+    .vafa .picture-container {
+        background-position: 140% 140%;
+        height: 700px;
+    }
+}
+
+@media (min-width:1200px) {
+    header .right-container {
+        width: 800px;
+        position: relative;
+        top: initial;
+        bottom: initial;
+    }
+    header .left-container {
+        width: 800px;
+        position: relative;
+        top: initial;
+        left: inherit;
+        bottom: initial;
+        right: 45%;
+    }
+    .hero-text .content {
+        font-size: 0.9rem;
+    }
+    header {
+        height: 85vh;
+    }
+    .call-to-action {
+        margin-top: 180px;
+    }
+    .horeca {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 40px;
+    }
+    .call-to-action {
+        margin-top: 280px;
+    }
+    .content-row {
+        margin-top: 0px;
+    }
+    .title-row {
+        margin-bottom: 30px;
+    }
+}
+
+.footer_contact_text {
+    font-size: 0.8rem !important;
+}
+
+.single-logo {
+    margin-right: 150px;
+    padding-right: 80px;
+}
+
+@media (min-width: 2560px) {
+    .hero-text {
+        width: 20vw !important;
+        line-height: 2rem;
+        letter-spacing: 2ch;
+    }
+    .hero-text .title-website {
+        font-size: 90px !important;
+        text-align: center;
+        position: relative;
+        right: 0%;
+    }
+    header .left-container {
+        width: 1000px;
+        right: 90%;
+        top: 10%;
+    }
+    header .right-container {
+        width: 1000px;
+        top: 10%;
+    }
+    .hero-text .content {
+        line-height: 2rem;
+    }
+    .vafa .picture-container {
+        height: 800px;
+    }
+    .tort .picture-container {
+        height: 800px;
+    }
+}

@@ -1,0 +1,640 @@
+@font-face {
+    font-family: 'Alata';
+    src: url(../fonts/Alata-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Courgette';
+    src: url(../fonts/Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Alpaca';
+    src: url(../fonts/ALPACA\ SCARLETT\ DEMO.TTF);
+}
+
+
+/* styles for the edge to edge design */
+
+.container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+.row.row-no-gutter {
+    margin: 0
+}
+
+.row.row-no-gutter [class*="col-"] {
+    padding: 0
+}
+
+.img-full-width {
+    width: 100.5%;
+    height: auto;
+}
+
+.has-inner .row.row-no-gutter {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row.row-no-gutter .inner {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* -------------------- Styles for the navbar ----------------------- */
+
+header {
+    background: url(../images/main2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.title-website {
+    font-family: 'Alata';
+    font-size: 4rem;
+    text-transform: uppercase;
+    /* color: #c4ab9f; */
+}
+
+.subtitle {
+    color: #C69963;
+    font-size: 1rem;
+    margin-top: 160px;
+}
+
+.social-media-container {
+    margin-top: 30px;
+}
+
+@media(min-width: 2560px) {
+    .subtitle {
+        position: relative;
+        right: 43%;
+        font-size: 2rem;
+    }
+    .social-media-container {
+        position: relative;
+        right: 43%;
+    }
+}
+
+.flip-card {
+    background-color: transparent;
+    position: relative;
+    right: -30px;
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px;
+    margin-top: 40px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+@media(min-width: 375px) {
+    .flip-card {
+        right: -80px;
+    }
+}
+
+@media(min-width: 425px) {
+    .flip-card {
+        right: -100px;
+    }
+}
+
+@media(min-width: 768px) {
+    .flip-card {
+        right: -250px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .flip-card {
+        right: -40px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .flip-card {
+        width: 400px;
+        left: -30px;
+    }
+}
+
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.new-content {
+    font-family: 'Alata';
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.flip-cta {
+    background-color: #FEF7F7;
+    height: 60vh;
+    padding-top: 80px;
+}
+
+.flip-cta .section-title {
+    font-size: 1.6rem;
+    font-family: 'Alata';
+    text-align: center;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card.active .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+    background-color: #FEF7F7;
+    color: black;
+}
+
+
+/* Style the back side */
+
+.flip-card-back {
+    background-color: #FEF7F7;
+    color: white;
+    transform: rotateY(180deg);
+    text-align: center;
+}
+
+
+/* -------------------- Styles for the  ------------------*/
+
+.contact {
+    width: 100%;
+    background: #FFFFFF;
+    padding-top: 114px;
+    padding-bottom: 103px;
+    /* padding-bottom: 40px; */
+    font-family: 'Alata';
+}
+
+.contact_title {
+    position: relative;
+    right: 25px;
+    font-size: 36px;
+    color: #232323;
+    line-height: 0.75;
+    text-align: left;
+}
+
+.contact_text {
+    margin-top: 40px;
+}
+
+.contact_logo_container {
+    margin-top: 59px;
+}
+
+.contact_logo_title {
+    font-size: 63px;
+    line-height: 0.75;
+    color: #232323;
+}
+
+.contact_logo_subtitle {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #232323;
+    letter-spacing: 0.680em;
+    line-height: 0.75;
+    margin-top: 19px;
+}
+
+.contact_list_container {
+    padding-top: 39px;
+    padding-bottom: 41px;
+    margin-top: 38px;
+    margin-left: -160px;
+}
+
+.contact_list li:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.contact_list li>div {
+    float: left;
+}
+
+.contact_list li>div:first-child div {
+    width: 167px;
+    font-size: 20px;
+    color: #232323;
+    line-height: 0.75;
+}
+
+.contact_list li>div:last-child {
+    font-size: 15px;
+    color: #838383;
+    line-height: 1.6;
+    margin-top: -3px;
+}
+
+.contact_social {
+    margin-top: 35px;
+}
+
+.contact_social ul li:not(:last-child) {
+    margin-right: 21px;
+}
+
+.contact_social ul li a i {
+    padding: 5px;
+    font-size: 14px;
+    color: #838383;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.contact_social ul li a i:hover {
+    color: #c4ab9f;
+}
+
+.cta {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(../images/poze/productie_cornete-64.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact_list_container {
+    margin-left: 0px;
+}
+
+.contact_title {
+    right: 0px;
+}
+
+@media(min-width: 1024px) {
+    .contact_title {
+        right: -58px;
+    }
+}
+
+@media(min-width: 2560px) {
+    .contact_list_container {
+        position: relative;
+        right: 50%;
+    }
+    .contact_title {
+        position: relative;
+        right: 38%;
+        font-size: 4rem !important;
+    }
+    .contact_list li {
+        font-size: 1.5rem !important;
+    }
+    .map-container {
+        width: 50vw !important;
+    }
+}
+
+
+/* -------------------- Styles for the google-maps -------------------*/
+
+#map {
+    width: 100%;
+    height: 80vh;
+    background-color: grey;
+}
+
+
+/* -------------------- Styles for the call-to-action part of the page ------------- */
+
+.call-to-action-container {
+    width: 100%;
+    background: linear-gradient(rgba(26, 13, 29, 0.95), rgba(26, 13, 29, 0.95)), url(../dummy/ice-cream/bg3.jpg) center no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+.call-to-action {
+    font: bold;
+    color: white;
+    padding-top: 10vh;
+}
+
+.call-to-action-container>.container {
+    height: 100%;
+    padding: 0;
+}
+
+
+/* -------------------- Styles for the footer -------------------------*/
+
+.footer {
+    width: 100%;
+    background: #4A2815;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    opacity: 0.9;
+}
+
+.footer_logo_title {
+    font-size: 23px;
+    line-height: 1em;
+    color: #FFFFFF;
+    font-family: 'Alata';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.footer_logo_subtitle {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.680em;
+    line-height: 0.75;
+    margin-top: 17px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.41);
+    line-height: 0.75;
+    margin-top: 22px;
+}
+
+.footer_about p {
+    color: #a5a4a4;
+}
+
+.footer_about h2 {
+    color: #FFFFFF;
+}
+
+.footer_contact ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer_contact ul {
+    padding-right: 0px;
+    margin-right: 10px;
+    padding-inline-start: 0px;
+    margin-top: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.row-links {
+    position: relative;
+    right: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.link-item {
+    height: 140px;
+}
+
+footer .logo-container {
+    position: relative;
+    width: 50%;
+    left: 30%;
+}
+
+.social-container {
+    position: relative;
+    left: 40px;
+}
+
+@media(min-width:768px) {
+    .social-container {
+        position: relative;
+        left: 44% !important;
+    }
+    .row-links {
+        right: 20px;
+    }
+    footer .logo-container {
+        position: relative;
+        left: 25%;
+    }
+}
+
+@media(min-width: 1024px) {
+    footer .logo-container {
+        top: 40%;
+    }
+    .social-container {
+        top: 30%;
+    }
+}
+
+.footer_contact_text {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    line-height: 21px;
+    padding-top: 22px;
+    font-family: 'Montserrat';
+}
+
+.footer_contact ul li div:last-child {
+    white-space: nowrap;
+}
+
+.footer-second-row {
+    width: 100%;
+}
+
+.footer-second-row ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-second-row li {
+    float: left;
+}
+
+.footer-second-row li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.footer-second-row li a:hover {
+    background-color: #111111;
+}
+
+.footer-second-row li a {
+    color: white !important;
+}
+
+.center-ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.center-ul:last-child {
+    margin-right: 0px;
+}
+
+.social-container {
+    margin-top: 40px;
+    position: relative;
+    right: 55px;
+    text-align: center;
+}
+
+.social-list {
+    justify-items: center;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    right: 30px;
+    top: -18px;
+}
+
+.link-item {
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    margin-left: 30px;
+    margin-top: auto;
+}
+
+.link-item:hover {
+    color: black;
+}
+
+.social-list li {
+    float: left;
+    padding-right: 10px;
+}
+
+.social-container {
+    position: relative;
+    text-align: center;
+    left: 42%;
+}
+
+.social-container a {
+    color: white !important;
+}
+
+.social-container a:hover {
+    color: black !important;
+}
+
+
+/* -------------------- Media queries -------------------------*/
+
+@media (min-width: 576px) {
+    .navbar-brand {
+        max-width: 150px;
+    }
+    .hamburger-menu {
+        top: 35px;
+        right: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn {
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    header>.container {
+        padding: 0;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+    .navbar-brand {
+        position: initial;
+        transform: initial;
+    }
+    .nav-list {
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: initial;
+        flex-direction: row;
+        opacity: initial;
+        transform: initial;
+        transition: initial;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-item {
+        margin: 0 30px;
+        padding-bottom: 2vh;
+    }
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+    .nav-link {
+        position: relative;
+    }
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        background-color: #C69963;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 350ms;
+    }
+    .nav-link:hover::before {
+        transform: scaleX(1);
+    }
+}
