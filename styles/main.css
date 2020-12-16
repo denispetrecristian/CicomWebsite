@@ -366,6 +366,18 @@ header .btn-custom {
     margin-top: 40px;
 }
 
+header .btn-language {
+    width: fit-content;
+    background: transparent;
+    color: #4A2815;
+    display: inline-block;
+    padding: 13px 34px;
+    font-family: "Roboto";
+    font-size: 16px;
+    border: 2px solid #4A2815;
+    letter-spacing: 2px;
+}
+
 header .btn-custom:hover {
     background: #b7472a;
     color: #fff;
