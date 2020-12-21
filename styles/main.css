@@ -409,6 +409,21 @@ header .btn-custom:hover {
     position: fixed;
 }
 
+header .btn-dropdown {
+    width: fit-content;
+    background-color: transparent;
+    color: #4A2815;
+    display: inline-block;
+    padding: 6px 6px;
+    border: 1px solid #4A2815;
+}
+
+.header .dropdown-menu {
+    width: fit-content !important;
+    background-color: transparent !important;
+    border: 1px solid #4A2815 !important;
+}
+
 
 /* ------------------------------------- Transitions for the header ------------------------------- */
 
