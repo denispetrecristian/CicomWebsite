@@ -1,5 +1,44 @@
 /* Section for the header of the index page */
 
-header .website-title {
+header .title-website {
     font-size: 40px !important;
+}
+
+.site-content-title {
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+@keyframes write-text {
+    0% {
+        width: 0ch;
+    }
+    99.99% {
+        width: 27ch;
+    }
+    100% {
+        /* white-space: normal; */
+        overflow: hidden;
+    }
+}
+
+@media(min-width: 992px) {
+    .text-write {
+        animation: write-text 2.5s steps(90, end);
+        overflow: hidden;
+        white-space: nowrap;
+        margin: auto 0;
+        text-align: left;
+        animation-fill-mode: forwards;
+    }
+    .section-about .btn-container {
+        margin-top: 0px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .accordion-section {
+        margin-top: 300px;
+    }
 }
