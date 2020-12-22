@@ -33,6 +33,14 @@ function showSlides(index) {
 
 }
 
+function resizeHandle() {
+    if (screen.width > 920) {
+        showOnBigScreen();
+    } else {
+        showOnSmallScreen();
+    }
+}
+
 function showOnSmallScreen() {
 
 }
@@ -40,3 +48,5 @@ function showOnSmallScreen() {
 function showOnBigScreen() {
 
 }
+
+window.addEventListener('resize', resizeHandle);
