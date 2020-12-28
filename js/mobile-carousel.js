@@ -35,7 +35,7 @@ function showSlides(index) {
 
 //Use the medium breakpoint
 function resizeHandle() {
-    if (screen.width > 920) {
+    if (screen.width < 920) {
         showOnBigScreen();
     } else {
         showOnSmallScreen();
@@ -59,3 +59,4 @@ function showOnBigScreen() {
 }
 
 window.addEventListener('resize', resizeHandle);
+window.addEventListener('DOMContentLoaded', resizeHandle);
