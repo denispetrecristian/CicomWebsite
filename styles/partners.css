@@ -230,13 +230,30 @@ h3 {
 
 /*Styles for the slideshow*/
 
+
+/* TODO: add better styles for the carousel so the images will fit  */
+
+
+/*
+    TODO: -styles for pictures
+          -styles for transitions
+          -styles for logo positions on big screens
+          -styles for the logo section
+
+*/
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
 
-.mySlides {
+.logo-container-carousel {
+    width: 80px;
+    height: 80px;
+}
+
+.slide-logo {
     display: none;
 }
 
@@ -280,6 +297,23 @@ h3 {
     width: 60px;
     height: 60px;
 }
+
+.move-left {
+    animation-name: move-to-left;
+    animation-duration: 1s;
+}
+
+@keyframes move-to-left {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+
+/* RESPONSIVE BREAKPOINTS*/
 
 @media(min-width: 375px) {
     .under-logo {

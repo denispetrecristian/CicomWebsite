@@ -38,10 +38,10 @@ function resizeHandle() {
     console.log(window.innerWidth);
     if (window.innerWidth < 920) {
         showOnBigScreen();
-        console.log("BIG")
+
     } else {
         showOnSmallScreen();
-        console.log("SMALL");
+
     }
 }
 
