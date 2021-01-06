@@ -245,10 +245,22 @@ h3 {
 .logos-small-screen {}
 
 .logos-big-screen {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    max-height: 50vh;
-    min-height: 50vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+.logos-big-screen .row:first-child {
+    margin-top: 0px;
+}
+
+.logos-big-screen .title-section {
+    font-family: 'Alata';
+    font-size: 3rem;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: normal;
 }
 
 .slideshow-container {
@@ -303,8 +315,12 @@ h3 {
 }
 
 .logo-container {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
+}
+
+.logos-big-screen .row {
+    margin-top: 80px;
 }
 
 .move-left {
