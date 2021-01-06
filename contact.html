@@ -51,8 +51,8 @@
                 <i class="fas fa-bars toggle"></i>
                 <i class="fas fa-times toggle"></i>
             </div>
-            <nav class="d-flex align-items-center justify-content-center justify-content-lg-between">
-                <a href="index.html" class="navbar-brand">
+            <nav class="d-flex align-items-center justify-content-center justify-content-lg-between" id="navbar">
+                <a href="index.html" class="navbar-brand logo">
                     <img src="images/logo cicom vector flag.png" alt="" class="img-fluid">
                 </a>
                 <ul class="nav-list text-center p-0">
@@ -60,17 +60,28 @@
                         <a href="index.html" class="nav-link"> Home </a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link"> Despre noi </a>
+                        <div class="dropdown-custom">
+                            <button class="drop-btn"> Info
+                                <i class="fa fa-caret-down"> </i>
+                            </button>
+                            <div class="dropdown-custom-content">
+                                <a href="brands.html" class="nav-link">Despre noi</a>
+                                <a href="produse.html" class="nav-link">Produse</a>
+                                <a href="calitate.html" class="nav-link">Calitate</a>
+                                <a href="sustenabilitate.html" class="nav-link">Sustenabilitate</a>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a href="produse.html" class="nav-link"> Produse </a>
-                    </li>
+
+
+
                     <li class="nav-item">
                         <a href="parteneri.html" class="nav-link">Parteneri</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a href="cariera.html" class="nav-link"> Carieră </a>
-                    </li> -->
+
+                    <li class="nav-item">
+                        <a href="brands.html" class="nav-link">Branduri</a>
+                    </li>
                     <li class="nav-item">
                         <a href="contact.html" class="nav-link"> Contact </a>
                     </li>
@@ -80,8 +91,8 @@
                                 RO
                         </button>
                             <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="EN/contact.html">EN</a>
-                                <!-- <a class="dropdown-item" href="DE/contact.html">DE</a> -->
+                                <a class="dropdown-item" href="EN/index.html">EN</a>
+                                <!-- <a class="dropdown-item" href="DE/index.html">DE</a> -->
 
                             </div>
                         </div>
