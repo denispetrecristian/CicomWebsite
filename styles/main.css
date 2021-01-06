@@ -425,6 +425,63 @@ header .btn-dropdown {
 }
 
 
+/* TODO: create styles for the dropdown in the navbar*/
+
+nav .dropdown-custom {
+    float: left;
+    overflow: hidden;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav .drop-btn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+.dropdown-custom:hover .drop-btn {
+    background-color: white;
+}
+
+.dropdown-custom-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1;
+}
+
+.dropdown-custom-content a {
+    float: none;
+    color: black;
+    margin: 12px 6px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* .dropdown-custom-content a:hover {
+    background-color: #ddd;
+} */
+
+.dropdown-custom:hover .dropdown-custom-content {
+    display: block;
+}
+
+
 /* ------------------------------------- Transitions for the header ------------------------------- */
 
 .transition-header {
