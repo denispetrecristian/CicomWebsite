@@ -309,7 +309,8 @@ header .left-container {
 
 .horeca {
     width: 100%;
-    height: 40vh;
+    min-height: 40vh;
+    max-height: 80vh;
 }
 
 .horeca h2 {
