@@ -248,7 +248,7 @@ h3 {
     padding-top: 80px;
     padding-bottom: 80px;
     max-height: 100vh;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 .logos-big-screen .row:first-child {
