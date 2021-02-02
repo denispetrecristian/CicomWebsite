@@ -428,7 +428,7 @@ header .btn-dropdown {
 /* TODO: create styles for the dropdown in the navbar*/
 
 nav .dropdown-custom {
-    float: left;
+    /* float: left; */
     overflow: hidden;
 }
 
@@ -454,6 +454,7 @@ nav .drop-btn {
 }
 
 .dropdown-custom-content {
+    left: 25%;
     display: none;
     position: absolute;
     background-color: white;
@@ -461,6 +462,19 @@ nav .drop-btn {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
     z-index: 1;
+}
+
+@media(min-width: 1024px) {
+    .dropdown-custom-content {
+        left: 0;
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        z-index: 1;
+    }
 }
 
 .dropdown-custom-content a {
