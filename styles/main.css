@@ -466,7 +466,7 @@ nav .drop-btn {
 
 @media(min-width: 1024px) {
     .dropdown-custom-content {
-        left: 0;
+        left: auto;
         display: none;
         position: absolute;
         background-color: white;
