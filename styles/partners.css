@@ -346,6 +346,10 @@ h3 {
     animation-duration: 1s;
 }
 
+.partners-logo {
+    margin-top: 120px;
+}
+
 @keyframes move-to-left {
     0% {
         left: 0%;
