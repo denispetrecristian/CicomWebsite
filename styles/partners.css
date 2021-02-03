@@ -357,6 +357,12 @@ h3 {
     margin-top: 50px;
 }
 
+@media(min-width: 756px) {
+    .col-buffer-sm {
+        margin-top: 0px;
+    }
+}
+
 @keyframes move-to-left {
     0% {
         left: 0%;
