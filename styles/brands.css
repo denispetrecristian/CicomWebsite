@@ -7,3 +7,13 @@
 .top-buffer {
     margin-top: 240px;
 }
+
+.col-buffer-sm {
+    margin-top: 240px;
+}
+
+@media(min-width: 760px) {
+    .col-buffer-sm {
+        margin-top: 0px;
+    }
+}
