@@ -1,0 +1,9 @@
+.brand-container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.top-buffer {
+    margin-top: 240px;
+}
