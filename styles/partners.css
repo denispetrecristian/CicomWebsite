@@ -355,7 +355,14 @@ h3 {
 }
 
 .presentation-text {
-    background: linear-gradient( #FEF7F7, white);
+    background: url(../images/background/solid-surface-corian-sand-storm.jpg) no-repeat;
+    background-size: cover;
+    height: 85vh;
+    max-height: 240vh;
+}
+
+.section-title {
+    font-size: 36px;
 }
 
 .col-buffer-sm {
