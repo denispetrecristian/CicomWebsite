@@ -354,6 +354,10 @@ h3 {
     width: 100%;
 }
 
+.presentation-text {
+    background: linear-gradient( #FEF7F7, white);
+}
+
 .col-buffer-sm {
     margin-top: 50px;
 }
