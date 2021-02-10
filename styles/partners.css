@@ -76,12 +76,6 @@ header {
     }
 }
 
-.intro-text .section-title {
-    font-family: 'Alata';
-    font-size: 1.5rem;
-    padding-top: 20px;
-}
-
 .single-fact>p {
     text-indent: -5px;
 }
@@ -406,6 +400,16 @@ h3 {
     font-size: 3.5rem;
     color: #4A2815;
     letter-spacing: 2px;
+}
+
+.content-container {
+    font-family: 'Montserrat';
+}
+
+.section-title {
+    font-family: 'Alata';
+    letter-spacing: 2px;
+    font-size: 2.5rem;
 }
 
 @media(min-width: 756px) {

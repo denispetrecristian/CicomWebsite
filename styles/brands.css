@@ -48,6 +48,13 @@ header {
     margin-top: 80px;
 }
 
+.brands-text {
+    background-image: url(../images/background/solid-surface-corian-sand-storm.jpg);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+}
+
 @media(min-width: 760px) {
     .col-buffer-sm {
         margin-top: 0px;
