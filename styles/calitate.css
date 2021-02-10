@@ -6,6 +6,11 @@ header {
     height: 75vh;
 }
 
+.partners {
+    height: max-content;
+    margin-top: 60px;
+}
+
 .title-highlight {
     color: #4A2815;
     background-color: #FEF7F7;
