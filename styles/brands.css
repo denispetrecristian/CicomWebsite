@@ -25,6 +25,10 @@ header {
 .page-title {
     font-family: 'Alata';
     text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4A2815;
+    font-weight: 400;
+    font-size: 3.5rem;
 }
 
 .title-section {
