@@ -12,8 +12,7 @@ header {
 }
 
 .title-highlight {
+    font-family: 'Alata';
     color: #4A2815;
-    background-color: #FEF7F7;
-    box-shadow: 0 0 0 5px #FEF7F7;
     font-size: 50px;
 }
