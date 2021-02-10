@@ -241,14 +241,14 @@ h3 {
 }
 
 .bullet-point-item {
-    font-family: 'Alata';
+    font-family: 'Montserrat';
     font-size: 16px;
 }
 
 .content {
     color: black!important;
     font-size: 16px !important;
-    font-family: 'Alata';
+    font-family: 'Montserrat';
 }
 
 .logos-big-screen {
@@ -351,19 +351,18 @@ h3 {
 .presentation-text {
     background: url(../images/background/solid-surface-corian-sand-storm.jpg) no-repeat;
     background-size: cover;
-    height: 120vh;
-    max-height: 240vh;
+    height: 85vh;
 }
 
 @media(min-width: 920px) {
     .presentation-text {
-        height: 90vh;
+        height: 75vh;
     }
 }
 
 @media(min-width: 1200px) {
     .presentation-text {
-        height: 80vh;
+        height: 65vh;
     }
 }
 
