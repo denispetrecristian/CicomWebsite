@@ -357,8 +357,20 @@ h3 {
 .presentation-text {
     background: url(../images/background/solid-surface-corian-sand-storm.jpg) no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 120vh;
     max-height: 240vh;
+}
+
+@media(min-width: 920px) {
+    .presentation-text {
+        height: 90vh;
+    }
+}
+
+@media(min-width: 1200px) {
+    .presentation-text {
+        height: 80vh;
+    }
 }
 
 .section-title {
