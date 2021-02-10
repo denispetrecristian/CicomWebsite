@@ -356,6 +356,13 @@ h3 {
 
 .col-spacing-carousel {
     margin-top: 10vh;
+    display: none;
+}
+
+@media(min-width: 700px) {
+    .col-spacing-carousel {
+        display: block;
+    }
 }
 
 @media(min-width: 920px) {
