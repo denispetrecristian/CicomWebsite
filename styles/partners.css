@@ -354,6 +354,10 @@ h3 {
     height: 85vh;
 }
 
+.col-spacing-carousel {
+    margin-top: 10vh;
+}
+
 @media(min-width: 920px) {
     .presentation-text {
         height: 75vh;
