@@ -16,6 +16,34 @@
     margin-top: 120px;
 }
 
+header {
+    background: white;
+    height: 30vh;
+    background-size: cover;
+}
+
+.page-title {
+    font-family: 'Alata';
+    text-transform: uppercase;
+}
+
+.title-section {
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(rgb(255, 255, 255), #FEF7F7);
+}
+
+.wrap {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.row-spacing {
+    margin-top: 80px;
+}
+
 @media(min-width: 760px) {
     .col-buffer-sm {
         margin-top: 0px;
