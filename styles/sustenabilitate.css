@@ -35,6 +35,10 @@ header {
     align-items: center;
 }
 
+.wrap-text .title {
+    font-size: 1.5rem;
+}
+
 .wrap-text .img-container {
     margin-left: 40px;
 }
@@ -65,5 +69,8 @@ header {
     }
     .container-wrap {
         margin-top: 100px;
+    }
+    .wrap-text .title {
+        font-size: 2rem;
     }
 }
