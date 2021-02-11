@@ -9,6 +9,7 @@ header {
 .partners {
     height: max-content;
     margin-top: 60px;
+    background: linear-gradient(white, #FEF7F7);
 }
 
 .title-highlight {
