@@ -63,15 +63,12 @@ header {
     margin-top: 80px;
 }
 
-.footer {
-    margin-top: 80px;
+.carousel {
+    height: 30vh;
 }
 
-.carousel {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.carousel-item {
+    width: 80%;
 }
 
 @media(min-width: 760px) {
