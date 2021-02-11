@@ -28,7 +28,7 @@ header {
     letter-spacing: 2px;
     color: #4A2815;
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 
 .title-section {
@@ -59,12 +59,12 @@ header {
     align-items: center;
 }
 
-.carousel-spacing {
-    margin-top: 80px;
-}
-
 .carousel {
+    padding-top: 50px;
+    padding-left: 50px;
     height: 30vh;
+    background-image: url(../images/background/solid-surface-corian-sand-storm.jpg);
+    background-size: cover;
 }
 
 .carousel-item {
@@ -86,5 +86,11 @@ header {
     }
     .footer {
         margin-top: 0px;
+    }
+    .page-title {
+        font-size: 3.5rem;
+    }
+    header {
+        height: 30vh;
     }
 }
