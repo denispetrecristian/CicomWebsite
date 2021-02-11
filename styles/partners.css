@@ -107,7 +107,6 @@ header {
     justify-items: center;
     text-align: center;
     height: 80vh;
-    margin-bottom: 760px;
 }
 
 .partners .section-title {
@@ -351,7 +350,7 @@ h3 {
 .presentation-text {
     background: url(../images/background/solid-surface-corian-sand-storm.jpg) no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 120vh;
 }
 
 .col-spacing-carousel {
@@ -410,6 +409,7 @@ h3 {
     font-size: 3.5rem;
     color: #4A2815;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .content-container {
