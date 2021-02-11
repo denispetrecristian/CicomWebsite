@@ -59,6 +59,21 @@ header {
     align-items: center;
 }
 
+.carousel-spacing {
+    margin-top: 80px;
+}
+
+.footer {
+    margin-top: 80px;
+}
+
+.carousel {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @media(min-width: 760px) {
     .col-buffer-sm {
         margin-top: 0px;
@@ -71,5 +86,8 @@ header {
     }
     .brand-container {
         margin: auto;
+    }
+    .footer {
+        margin-top: 0px;
     }
 }
