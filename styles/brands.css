@@ -1,7 +1,7 @@
 .brand-container {
-    width: 50%;
+    width: 15%;
     height: 50%;
-    margin: auto;
+    margin-top: 40px;
 }
 
 .top-buffer {
@@ -53,6 +53,10 @@ header {
     background-size: cover;
     height: 40vh;
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media(min-width: 760px) {
@@ -61,5 +65,11 @@ header {
     }
     .footer-spacing {
         margin-top: 120px;
+    }
+    .brands-text {
+        flex-direction: row;
+    }
+    .brand-container {
+        margin: auto;
     }
 }
