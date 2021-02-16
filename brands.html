@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset='utf-8'>
@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/animate.css">
     <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <link rel="stylesheet" href="styles/brands-animation.css">
 
     <!-- Link to jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -38,6 +39,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js " integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ " crossorigin="anonymous "></script>
     <!--Link to custom stylesheet-->
     <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <link rel="stylesheet" href="styles/brands.css">
 
     <!--Link to Font Awesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
@@ -48,7 +50,6 @@
 </head>
 
 <body>
-
     <header id="home">
         <div class="container ">
             <div class="hamburger-menu">
@@ -77,12 +78,9 @@
                         </div>
                     </li>
 
-
-
                     <li class="nav-item">
-                        <a href="parteneri.html" class="nav-link">Parteneri</a>
+                        <a href="parteneri.html" class="nav-link"> Parteneri </a>
                     </li>
-
                     <li class="nav-item">
                         <a href="brands.html" class="nav-link">Branduri</a>
                     </li>
@@ -105,146 +103,53 @@
             </nav>
 
 
-            <div class="hero-text w-100 text-white px-2 px-sm-0 text-center text-md-left">
-                <h1 class="title-website text-write" id="text-write">
-                    PLĂCERE ȘI RĂCOARE
-                </h1>
-                <a href="#about" class="boxed-btn">Descoperă</a>
-            </div>
+
         </div>
     </header>
 
 
+    <section class="title-section">
+        <div class="wrap">
+            <h2 class="page-title">
+                Mărci proprii și exclusive
+            </h2>
+        </div>
+    </section>
 
-    <main>
-        <!---------------------- About part of the webpage ---------------------------------->
 
-        <section class="section-padding section-about" id="about">
-            <div class="container-fluid full-width has-inner">
-                <div class="row row-no-gutter">
-                    <div class="col-md-6 col-xs-12">
-                        <div class="inner">
-                            <div class="img-container-one rellax" data-rellax-speed="0" style="background-image: url(images/images-new/Linie\ Productie-95\ \(1\).jpg); background-position: left; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;"
-                                id="parallax1">
-                                <!-- <img src="images/poze/Linie Productie-163.jpg" alt="" class="img-fluid img-full-section"> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <div class="inner">
-                            <div class="text-container">
-                                <!-- <p class="text-smaller custom-color-one"> Din 1998 </p> -->
-                                <h2 class="section-title  hidden-fade-in">Povestea noastră <br> a început în anul 2002
-                                </h2>
+    <section class="brands-text" id="hidden-small-carousel">
+        <div class="brand-container">
+            <img src="images/brands-picutres/happy.png" alt="" class="img-brand img-fluid" id="first-brand">
+        </div>
+        <div class="brand-container">
+            <img src="images/brands-picutres/MissTwist.png" alt="" class="img-brand img-fluid" id="second-brand">
+        </div>
+        <div class="brand-container">
+            <img src="images/brands-picutres/unique.png" alt="" class="img-brand img-fluid" id="third-brand">
+        </div>
+        <div class="brand-container">
+            <img src="images/brands-picutres/Untitled-1.png" alt="" class="img-brand img-fluid" id="fourth-brand">
+        </div>
+    </section>
 
-                                <p class="content hidden-fade-in">Atunci când Daniela și Cornel Coman au pus bazele fabricii de înghețată, au avut un singur gând: să creeze un produs care să fie sinonim cu o stare de bine și care să ofere plăcere și răcoare.
-                                </p>
-                                <p class="content hidden-fade-in">
-                                    Alături de o echipă de oameni dedicați, au reușit să desăvârșească un produs gustos, folosind numai ingrediente de înaltă calitate.
-                                </p>
-                                <p class="content hidden-fade-in">
-                                    Păstrăm și astăzi aceeași viziune, aceea de a oferi înghețată creată din pasiune. Doar că între timp am avut grijă să acumulăm cunoștințe temeinice despre acest domeniu și să evoluăm continuu.
-                                </p>
-
-                                <!-- <p class=" important-text ">THIS TEXT IS MORE IMPORTANT THAN THE REST. SMTH LIKE A CTA</p> -->
-                                <div class="btn-container hidden-fade-in ">
-                                    <a href="about.html " class="boxed-btn">Mai multe</a>
-                                </div>
-
-                                <div class="container-vafa">
-                                    <img src="images/details/VAFA MARON.png" alt="" class="img-fluid">
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="carousel slide carousel-spacing" data-ride="carousel" id="hidden-big-carousel" data-interval="2000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/brands-picutres/happy.png" alt="First slide">
             </div>
-        </section>
-
-
-        <!------------------------- SERVICIES PART OF THE WEBSITE -------------------------------->
-        <!-- <section class="servicies-section ">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col text-center ">
-                        <div class="section-title-container ">
-                            <h2 class="section-title hidden-fade-in ">Produse</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row produse ">
-                    <div class="col-lg-4 col-xs-12 ">
-                        <div class="single-service text-center hidden ">
-                            <a href="produse.html#vafa">
-                                <div class="img-container btn-image " style="background-image: url(images/Buton-rotund/buton\ rotund\ vafa.png); background-size: cover; background-position: center center; background-repeat: no-repeat; ">
-
-                                </div>
-                            </a>
-                            <div class="text-container ">
-                                <h5 class="site-content-title ">Vafa</h5>
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xs-12 ">
-                        <div class="single-service text-center hidden ">
-                            <a href="produse.html#tort">
-                                <div class="img-container btn-image " style="background-image: url(images/Buton-rotund/BUTON\ ROTUND\ TORT.jpg); background-size: cover; background-position: center center; background-repeat: no-repeat; ">
-
-                                </div>
-                            </a>
-                            <div class="text-container ">
-                                <h5 class="site-content-title ">Tort</h5>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xs-12 ">
-                        <div class="single-service text-center hidden ">
-                            <a href="produse.html#horeca">
-                                <div class="img-container btn-image " style="background-image: url(images/Buton-rotund/buton\ rotund\ fistic.png); background-size: cover; background-position: center center; background-repeat: no-repeat; ">
-
-                                </div>
-                            </a>
-                            <div class="text-container ">
-                                <h5 class="site-content-title ">Horeca</h5>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/brands-picutres/MissTwist.png" alt="Second slide">
             </div>
-        </section> -->
-        <!------------------------- I guess a transition here would be fitting-------------------------------------------->
-
-
-
-        <!------------- CALL TO ACTION PART OF THE WEBSITE ----------------->
-        <!-- <div class="call-to-action rellax " data-rellax-speed="0 " id="parallax2">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col text-center ">
-                        <div class="cta-container ">
-
-                            <a href="contact.html " class="boxed-btn">Contactează-ne</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/brands-picutres/unique.png" alt="Third slide">
             </div>
-        </div> -->
-    </main>
-
-    <!---------- Code for cookie policy banner ----------->
-
-    <div class="cookie-banner" style="display: none;">
-        <p>
-            Navigând în continuare pe acest site, sunteți de acord cu
-            <a href="termeni.html#termeni" style="color: #4A2815 !important"> Termenii și Condițiile noastre</a>
-        </p>
-        <button class="close" style="color: #4A2815 !important;">&times;</button>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/brands-picutres/Untitled-1.png" alt="Third slide">
+            </div>
+        </div>
     </div>
+
+
 
 
     <footer class="footer">
@@ -299,18 +204,10 @@
     </footer>
 
 
-
-
-
-    <!--Loading javascsript-->
-
     <script src="js/index.js "></script>
     <script src="js/main.js "></script>
     <script src="js/navbar.js "></script>
-    <script src="js/banner.js"></script>
-    <script src="js/ios.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js "></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="js/hidden-element-md-brands.js"></script>
 
 </body>
 
