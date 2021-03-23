@@ -4,10 +4,24 @@ header .title-website {
     font-size: 40px !important;
 }
 
+.partners {
+    margin-top: 600px !important;
+}
+
+.footer-partners {
+    margin-top: 600px !important;
+}
+
 .site-content-title {
     font-size: 26px;
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+.header-parteneri {
+    background: url(../images/fundal\ 1.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 @keyframes write-text {
@@ -23,6 +37,15 @@ header .title-website {
     }
 }
 
+@media(min-width: 768px) {
+    .partners {
+        margin-top: 100px !important;
+    }
+    .footer-partners {
+        margin-top: 0px !important;
+    }
+}
+
 @media(min-width: 992px) {
     .text-write {
         animation: write-text 2.5s steps(90, end);
@@ -35,10 +58,16 @@ header .title-website {
     .section-about .btn-container {
         margin-top: 0px;
     }
+    .partners {
+        margin-top: 00px;
+    }
 }
 
 @media(min-width: 1200px) {
     .accordion-section {
         margin-top: 300px;
+    }
+    .footer-partners {
+        margin-top: 0px !important;
     }
 }
